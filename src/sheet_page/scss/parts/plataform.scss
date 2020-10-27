@@ -1,0 +1,31 @@
+@import "../variable";
+
+.contenedor-plataform {
+  background: #fff;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: $tipografia_secundaria;
+
+  .boton-plataform-anadir {
+    background: $color_terceario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-plataform-anadir:hover {
+    background: $color_secundario;
+  }
+  .boton-plataform-borrar {
+    background: $color_primario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-plataform-borrar:hover {
+    background: $color_secundario;
+  }
+  .texto-plataforma {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-decoration: underline black;
+    font-family: $tipografia_principal;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../variable";
+
+.contenedor-login {
+  background: #fff;
+  width: 70%;
+  padding: 1em;
+  display: block;
+  margin: 5em auto;
+  border-radius: 1em;
+  .titulo-login {
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: $tipografia_principal;
+  }
+  .boton-login {
+    background: #b13a3b;
+  }
+  .boton-login:hover {
+    background: #6f39a8;
+  }
+}

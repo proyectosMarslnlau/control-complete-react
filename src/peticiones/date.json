@@ -1,0 +1,128 @@
+{
+  "dates": [
+    {
+      "id": "1",
+      "nombre": "Ing MARCELO POMA",
+      "usuario": "pmarcelo",
+      "password": "9177322",
+      "carnet": "9177322",
+      "tipo": "docente",
+      "email": "email1@gmail.com"
+    },
+    {
+      "id": "2",
+      "nombre": "LENNY VALENCIA",
+      "usuario": "vlenny",
+      "password": "12345",
+      "carnet": "12345",
+      "tipo": "docente",
+      "email": "email2@gmail.com"
+    },
+    {
+      "id": "3",
+      "nombre": "LAURA ARUQUIPA",
+      "usuario": "alaura",
+      "password": "123456",
+      "carnet": "123456",
+      "tipo": "docente",
+      "email": "email3@gmail.com"
+    },
+    {
+      "id": "4",
+      "nombre": "WARA VALENCIA",
+      "usuario": "vwara",
+      "password": "123",
+      "carnet": "123",
+      "tipo": "docente",
+      "email": "email4@gmail.com"
+    }
+  ],
+  "docente": [
+    {
+      "usuario": "9177322",
+      "materias": [
+        {
+          "id": 1,
+          "sigla": "ETN-1000",
+          "materia": "CAMPOS"
+        },
+        {
+          "id": 2,
+          "sigla": "ETN-2000",
+          "materia": "CAMPOS 2"
+        },
+        {
+          "id": 3,
+          "sigla": "ETN-3000",
+          "materia": "CAMPOS 3"
+        }
+      ]
+    },
+    {
+      "usuario": "12345",
+      "materias": [
+        {
+          "id": 1,
+          "sigla": "ETN-3010",
+          "materia": "ONDAS"
+        },
+        {
+          "id": 2,
+          "sigla": "ETN-2020",
+          "materia": "ONDAS 2"
+        },
+        {
+          "id": 3,
+          "sigla": "ETN-102",
+          "materia": "ONDAS 3"
+        }
+      ]
+    },
+    {
+      "usuario": "123456",
+      "materias": [
+        {
+          "id": 1,
+          "sigla": "ETN-322",
+          "materia": "ONDAS NUEVAS"
+        }
+      ]
+    },
+    {
+      "usuario": "123",
+      "materias": [
+        {
+          "id": 1,
+          "sigla": "ETN-666",
+          "materia": "BARCOS"
+        }
+      ]
+    }
+  ],
+  "plataformas": [
+    {
+      "id": 1,
+      "plataforma": "ZOOM"
+    },
+    {
+      "id": 2,
+      "plataforma": "MEETINGS"
+    },
+    {
+      "id": 3,
+      "plataforma": "CISCO"
+    }
+  ],
+  "date": {
+    "id": 1,
+    "fecha": "24-25-2020"
+  },
+  "timeStart": {
+    "id": 1,
+    "time": "09:00 PM"
+  },
+  "timeEnd": {
+    "id": 1,
+    "time": "10:00 PM"
+  }
+}

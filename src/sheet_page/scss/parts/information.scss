@@ -1,0 +1,41 @@
+@import "../variable";
+
+.contenedor-information {
+  background: #fff;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  margin-top: 3em;
+  .boton-information-anadir {
+    background: $color_secundario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-information-anadir:hover {
+    background: $color_secundario;
+  }
+  .boton-information-modificar {
+    background: $color_terceario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-information-modificar:hover {
+    background: $color_cuaternario;
+  }
+  .boton-information-borrar {
+    background: $color_primario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-information-borrar:hover {
+    background: $color_secundario;
+  }
+  .texto-informacion {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-decoration: underline black;
+    font-family: $tipografia_principal;
+  }
+  .texto-datos-informacion {
+    font-family: $tipografia_secundaria;
+  }
+  .texto-datos-table {
+    font-family: $tipografia_principal;
+  }
+}

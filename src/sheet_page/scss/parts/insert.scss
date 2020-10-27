@@ -1,0 +1,50 @@
+@import "../variable";
+
+.contenedor-insert {
+  background: #fff;
+  padding: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 0.5em;
+  .texto-titulo-insert {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: underline black;
+    font-family: $tipografia_principal;
+  }
+  .boton-registrar-datos {
+    background: $color_primario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-registrar-datos:hover {
+    background: $color_secundario;
+  }
+  .opcion-insert {
+    border-radius: 0.1em;
+    background: $color_datos;
+  }
+  .titulo-materias-actuales {
+    font-size: 1.3em;
+    font-family: $tipografia_principal;
+  }
+  .boton-insert-materia-anadir {
+    background: $color_terceario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-insert-materia-anadir:hover {
+    background: $color_cuaternario;
+  }
+  .boton-insert-materia-borrar {
+    background: $color_primario;
+    font-family: $tipografia_secundaria;
+  }
+  .boton-insert-materia-borrar:hover {
+    background: $color_secundario;
+  }
+  .boton-salir {
+    background: $color_secundario;
+  }
+  .titulo-insert-normal {
+    font-family: $tipografia_secundaria;
+  }
+}
