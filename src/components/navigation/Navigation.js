@@ -34,13 +34,13 @@ const Navigation = (props) => {
         )}
         <main>
           <Switch>
-            <Route exact path="/" component={Login} />
-            <Route exact path="/information" component={Information} />
-            <Route exact path="/download" component={Download} />
-            <Route exact path="/upload" component={Upload} />
-            <Route exact path="/modify/:id" component={Modify} />
-            <Route exact path="/plataform" component={Plataform} />
-            <Route exact path="/insert" component={Insert} />
+            <Route exact path="/informe-docente-f" component={Login} />
+            <Route exact path="/informe-docente-f/information" component={Information} />
+            <Route exact path="/informe-docente-f/download" component={Download} />
+            <Route exact path="/informe-docente-f/upload" component={Upload} />
+            <Route exact path="/informe-docente-f/modify/:id" component={Modify} />
+            <Route exact path="/informe-docente-f/plataform" component={Plataform} />
+            <Route exact path="/informe-docente-f/insert" component={Insert} />
             <Route component={ErrorPage} />
           </Switch>
         </main>
