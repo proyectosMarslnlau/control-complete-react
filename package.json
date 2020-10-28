@@ -1,6 +1,5 @@
 {
   "name": "andministrador-control-docente",
-  "homepage": "http://172.18.2.201:4001/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
