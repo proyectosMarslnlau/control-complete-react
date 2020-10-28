@@ -1,4 +1,4 @@
-const urlPrincipal = `http://localhost:4000`
+const urlPrincipal = `http://200.7.168.247/informe-docente-b`
 
 export const url_plantilla_excel= `${urlPrincipal}/state/files/plantilla.xlsx`;
 //direccion de LOGIN
