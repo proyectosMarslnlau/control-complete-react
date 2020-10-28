@@ -9,6 +9,8 @@ import downloadContext from "../../../context/download/downloadContext";
 import loginContext from "../../../context/login/loginContext";
 //Importamos el ALERT
 import Swal from "sweetalert2";
+//
+import {url_direccion_pdf} from '../../../sheet_page/js/constants'
 //++++++++++++++++++++++++++++++++++++++++++++
 const Download = (props) => {
   //Importamos loS context
@@ -152,7 +154,7 @@ const Download = (props) => {
     e.preventDefault();
     funcionDescargarPdf(fecha).then((item) => {
       if (item === true) {
-        const url = `http://localhost:4000/state/files/informe-docente.pdf`;
+        const url = url_direccion_pdf;
         guardarPasoSpinner(true);
         setTimeout(() => {
           guardarPasoSpinner(false);

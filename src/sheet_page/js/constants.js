@@ -23,3 +23,5 @@ export const url_download_excel = `${urlPrincipal}/download/descargar-excel`;
 export const url_listar_plataform =`${urlPrincipal}/plataform/listar-plataform`;
 export const url_update_plataform= `${urlPrincipal}/plataform/update-plataform`;
 export const url_borrar_plataforma = `${urlPrincipal}/plataform/delete-plataform`;
+//direccion de IMAGEN URL
+export const url_direccion_pdf=`${urlPrincipal}/state/files/informe-docente.pdf`;
