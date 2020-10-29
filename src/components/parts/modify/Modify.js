@@ -126,7 +126,7 @@ const Modify = (props) => {
           <div className="row">
             <form className="col s12">
               <div className="row">
-                <div className="input-field col s12">
+                <div className="input-field col s12 opcion-insert">
                   <i className="material-icons prefix">assignment_ind</i>
                   <input
                     id="nombre"
@@ -138,7 +138,7 @@ const Modify = (props) => {
                   />
                   <div>Nombre de Usuario</div>
                 </div>
-                <div className="input-field col s12">
+                <div className="input-field col s12 opcion-insert">
                   <i className="material-icons prefix">account_circle</i>
                   <input
                     id="usuario"
@@ -150,7 +150,7 @@ const Modify = (props) => {
                   />
                   <div>User de Entrada</div>
                 </div>
-                <div className="input-field col s12">
+                <div className="input-field col s12 opcion-insert">
                   <i className="material-icons prefix">lock</i>
                   <input
                     id="password"
@@ -162,7 +162,7 @@ const Modify = (props) => {
                   />
                   <div>Password</div>
                 </div>
-                <div className="input-field col s12">
+                <div className="input-field col s12 opcion-insert">
                   <i className="material-icons prefix">exposure</i>
                   <input
                     id="tipo"
@@ -174,7 +174,7 @@ const Modify = (props) => {
                   />
                   <div>Tipo Docente</div>
                 </div>
-                <div className="input-field col s12">
+                <div className="input-field col s12 opcion-insert">
                   <i className="material-icons prefix">email</i>
                   <input
                     id="email"
